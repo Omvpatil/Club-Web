@@ -7,10 +7,9 @@ const AnnouncementPage = () => {
       <div className="container mx-auto max-w-5xl text-white">
         {/* Main Heading */}
         <div className="mb-12">
-          <h1 className="text-4xl font-bold mb-4 text-left p-4 mt-8 border-b-2 border-gray-500">
+          <h1 className="text-5xl font-bold mb-4 text-left p-4 mt-8 border-b-2 border-gray-500">
             ANNOUNCEMENTS
           </h1>
-          
         </div>
 
         {/* Content Section */}
