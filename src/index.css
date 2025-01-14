@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.Login{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+    background-image: url('../src/assets/bacdrop.svg');
+    background-size: cover;
+
+    font-family:'Poppins', sans-serif;
+  }
+.Apps{
+  background-image: url('../src/assets/bacdrop.svg');
+  background-size: contain;
+}
