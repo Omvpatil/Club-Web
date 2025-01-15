@@ -44,7 +44,7 @@ const App = () => {
       {/* <Demo/> */}
     <section className="w-full h-full relative max-md:flex-col">
       <div className="App relative flex max-md:flex-col w-full h-[300vh]">  
-        <div className="flex max-md:flex-col w-full h-screen top-0 sticky overflow-hidden">
+        <div className="flex max-md:flex-col w-full h-screen max-md:h-full top-0 sticky max-md:relative overflow-hidden max-md:overflow-scroll">
           <Home />
           <Announcement />
           <Events />

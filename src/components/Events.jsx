@@ -26,7 +26,7 @@ const Events = () => {
 	}, []);
 
 	return (
-		<div className="Apps flex text-white p-16 max-md:flex-col max-md:p-5 gap-16 max-md:gap-10 h-screen w-screen flex-shrink-0 justify-center items-end ">
+		<div className="Apps flex text-white p-16 max-md:flex-col max-md:p-5 gap-16 max-md:gap-10 max-md:h-full max-md:w-full h-screen w-screen flex-shrink-0 justify-center items-end ">
 			{/* Left Section */}
 			<section className="h-5/6 w-full text-white flex flex-col justify-evenly gap-28 max-md:gap-5">
 				<h1 className="text-7xl">

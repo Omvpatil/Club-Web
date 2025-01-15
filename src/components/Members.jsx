@@ -11,7 +11,7 @@ const Members = memo(() => {
   }
 
   return (
-    <div className="Apps flex max-md:flex-col text-white p-28 max-md:p-5 gap-16 max-md:gap-5 h-screen w-screen flex-shrink-0 justify-center items-end">
+    <div className="Apps flex max-md:flex-col text-white p-28 max-md:p-5 gap-16 max-md:gap-5 max-md:h-full max-md:w-full h-screen w-screen flex-shrink-0 justify-center items-end">
       {/* Left Section */}
       <div className="h-5/6 w-full text-white flex flex-col justify-evenly gap-10">
         <div className="flex flex-col gap-20">

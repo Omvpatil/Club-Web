@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'; // Assuming the logo image is in this loc
 
 const Home = () => {
   return (
-    <div className="Apps bg-dark-blue h-screen w-screen flex flex-shrink-0 items-center justify-center max-md:mt-32">
+    <div className="Apps bg-dark-blue h-screen max-md:h-full max-md:w-full w-screen flex flex-shrink-0 items-center justify-center max-md:mt-32">
       <div className="container max-md:flex-col flex items-center justify-between"> 
         <div className="text-white px-4 flex flex-col gap-16"> 
           <h1 className="text-9xl max-md:text-7xl font-bold">PHOENIX CLUB</h1>
