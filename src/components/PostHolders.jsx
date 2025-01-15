@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 gsap.registerPlugin(ScrollToPlugin)
+
 const PostHolders = ({clickedIndex}) => {
   const positions = [
       {
@@ -49,7 +50,7 @@ useGSAP(()=>{
           x:(clickedIndex*810),
           y:(clickedIndex*555),
         },
-        ease:'Power4.easeOut',
+        ease:'power3.out',
       })
     },[clickedIndex]);
   

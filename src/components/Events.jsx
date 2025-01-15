@@ -10,7 +10,7 @@ const Events = () => {
 	useEffect(() => {
 		async function fetchData() {
 			try {
-				const response = await fetch("http://localhost:8000/events");
+				const response = await fetch("http://127.0.0.1:8000/events");
 				if (response.ok) {
 					const result = await response.json();
 					setEvents(result);

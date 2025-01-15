@@ -13,6 +13,9 @@ export default function Header() {
                     />
                     <h1 className="text-xl font-bold uppercase">Phoenix Club</h1>
                 </div>
+                <ul>
+                    
+                </ul>
             </div>
         </nav>
     );

@@ -1,14 +1,13 @@
-import React, { useState } from "react";
+import React, { memo, useState } from "react";
 import Svg from "./Svg";
 import PostHolders from "./PostHolders";
 
-const Members = () => {
+const Members = memo(() => {
   const wings_config =
     "ml-[26px] -mt-3 max-md:ml-0 max-md:ml-0 group-hover:scale-x-[-1] group-hover:opacity-100 group-hover:scale-110 duration-300 opacity-0 scale-x-[0] group-hover:rotate-0  origin-left -rotate-12 transition-all";
   const [clicked, setClicked] = useState(1);
   const handleClick = (e) =>{
     setClicked(parseInt(e.target.id));
-    console.log(clicked)
   }
 
   return (
@@ -20,7 +19,7 @@ const Members = () => {
             <span className="border-b border-white/50">OUR LEADERS</span>
           </h1>
         </div>
-        <div className="flex w-full h-full scroll-smooth overflow-x-scroll">
+        <div className="flex w-full h-full overflow-scroll">
           {/* Member 1 */}
           <PostHolders clickedIndex={clicked} />
         </div>
@@ -61,6 +60,6 @@ const Members = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Members;
