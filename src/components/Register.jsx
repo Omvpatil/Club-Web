@@ -30,7 +30,7 @@ export default function Register() {
   };
 
   return (
-    <div className="Login h-screen p-28 flex flex-col bg-black items-center justify-center">
+    <div className="Login h-screen p-28 flex flex-col bg-black items-center justify-center w-full">
       {/* Main Content */}
       <div className="flex gap-64 ">
         {/* Left Section */}

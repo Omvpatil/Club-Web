@@ -5,12 +5,12 @@ import { Link, NavLink, useNavigate } from "react-router";
 
 const Announcement = () => {
   return (
-    <div className="Apps bg-dark-blue max-md:h-full max-md:w-full w-screen h-screen gap-16 flex max-md:flex-col items-end p-10 max-md:p-5 justify-center flex-shrink-0">
+    <div className="Apps  bg-black/5 backdrop-blur-sm max-md:h-full max-md:w-full w-full h-screen gap-16 flex max-md:flex-col items-end p-10 max-md:p-5 justify-center flex-shrink-0">
       {/* Left Side */}
       <div className=" h-5/6 w-3/4 max-md:w-full text-white flex flex-col justify-evenly gap-28 max-md:gap-8 ">
         <h1 className="text-7xl max-md:text-5xl"> <span className="border-b border-white/60">Announcements</span></h1>
         <h2 className="text-2xl"><span className="border-b border-white/60">Events Name</span></h2>
-        <p className="px-16 max-md:px-0 font-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam corporis aut nihil architecto corrupti, illum fuga voluptates molestiae pariatur assumenda voluptas placeat blanditiis, odit id aspernatur consequatur et! Consequatur, similique!</p>
+        <p className="px-16 max-md:px-0 text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam corporis aut nihil architecto corrupti, illum fuga voluptates molestiae pariatur assumenda voluptas placeat blanditiis, odit id aspernatur consequatur et! Consequatur, similique!</p>
         <div className="flex w-full h-full gap-5 font-bold">
           <section>
             <h3>Time</h3>

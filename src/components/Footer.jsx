@@ -16,12 +16,12 @@ const Footer = () => {
         start:'start start',
         scrub:1
       },
-      y:1000
+      y:100
     })
   })
 
   return (
-    <div className='flex flex-col flex-shrink-0 w-full h-full text-white justify-center items-center'>
+    <div className='text-white'>
       <div className='flex w-full h-full justify-center items-center'>
         <div className='w-full h-full flex flex-col items-start justify-center gap-10 border-b border-white/50'>
           <div>
@@ -41,8 +41,8 @@ const Footer = () => {
 
         </span>
       </div>
-      <div className=' flex w-full h-full justify-center items-center text-[25vw] font-extrabold overflow-hidden '>
-        <span className='ThisText'>
+      <div className=' flex w-full h-1/3 justify-center items-center text-[25vw] font-extrabold overflow-hidden '>
+        <span className=''>
         Phoenix
         </span>
       </div>

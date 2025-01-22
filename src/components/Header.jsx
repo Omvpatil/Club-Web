@@ -3,8 +3,8 @@ import logo from "../assets/logo.png";
 
 export default function Header() {
     return (
-        <nav className=" text-white fixed z-50  top-0 h-28 w-screen border-b border-white/20">
-            <div className="w-full h-full backdrop-blur-xl px-5  bg-slate-900/50 inset-0">
+        <nav className=" text-white fixed z-50  top-0 h-28 w-screen ">
+            <div className="w-full h-full backdrop-blur-sm px-5  bg-slate-900/5 inset-0">
                 <div className="flex items-center">
                     <img
                     src={logo}

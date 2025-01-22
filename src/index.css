@@ -10,12 +10,5 @@
     width: 100vw;
     height: 100vh;
     z-index: -10;
-    background-image: url('../src/assets/bacdrop.svg');
-    background-size:cover;
-
     font-family:'Poppins', sans-serif;
-}
-#root{
-  background-image: url('../src/assets/BigbackDrop.svg');
-  background-size:cover;
 }
